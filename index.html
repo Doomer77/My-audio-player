@@ -5,6 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Player | CodingNepal</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://faviconka.ru/ico/1/faviconka.ru_1_102028.ico"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -28,13 +33,15 @@
       <div class="progress-area">
         <div class="progress-bar"></div>
         <div class="timer">
-          <span class="current"> 0:20 </span>
-          <span class="current"> 3:40 </span>
+          <span class="current"> 0:00 </span>
+          <span class="duration"> </span>
         </div>
         <audio id="main-audio" src=""></audio>
       </div>
       <div class="controls">
-        <i id="pepeat-plist" class="material-icons">repeat</i>
+        <i id="repeat-plist" class="material-icons" title="Playlist looped"
+          >repeat</i
+        >
         <i id="prev" class="material-icons">skip_previous</i>
         <div class="play-pause">
           <i class="material-icons">play_arrow</i>
@@ -50,43 +57,7 @@
           </div>
           <i id="close" class="material-icons">close</i>
         </div>
-        <ul>
-          <li>
-            <div class="row">
-              <span>Smells like teen spirit</span>
-              <p>Audio Library</p>
-            </div>
-            <span class="audio-duration"> 3:40 </span>
-          </li>
-          <li>
-            <div class="row">
-              <span>Smells like teen spirit</span>
-              <p>Audio Library</p>
-            </div>
-            <span class="audio-duration"> 3:40 </span>
-          </li>
-          <li>
-            <div class="row">
-              <span>Smells like teen spirit</span>
-              <p>Audio Library</p>
-            </div>
-            <span class="audio-duration"> 3:40 </span>
-          </li>
-          <li>
-            <div class="row">
-              <span>Smells like teen spirit</span>
-              <p>Audio Library</p>
-            </div>
-            <span class="audio-duration"> 3:40 </span>
-          </li>
-          <li>
-            <div class="row">
-              <span>Smells like teen spirit</span>
-              <p>Nirvana</p>
-            </div>
-            <span class="audio-duration"> 3:40 </span>
-          </li>
-        </ul>
+        <ul></ul>
       </div>
     </div>
 
